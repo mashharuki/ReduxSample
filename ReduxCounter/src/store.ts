@@ -3,7 +3,7 @@
  */
 
 import { createStore } from "redux";
-import counterReducer, { createInitialState } from './reducers/counter';
+import counterReducer, { createInitialState } from './modules/counter';
 
 const store = createStore(counterReducer, createInitialState());
 

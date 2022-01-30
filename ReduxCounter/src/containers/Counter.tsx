@@ -4,8 +4,8 @@
 
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { State } from "src/reducers/counter";
-import { increment, decrement } from "src/actions/counter";
+import { State } from "src/modules/counter";
+import { increment, decrement } from "src/modules/counter";
 import Counter from "../components/Counter";
 
 /**
