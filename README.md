@@ -18,5 +18,8 @@ Reduxを学習するためのサンプルリポジトリです。
 ## dispatchメソッド
    状態を更新するためのインターフェース
 
+## thunk
+   関数に別の関数を注入をすること。
+
 ### 参考サイト
    1. <a href="https://open8tech.hatenablog.com/entry/2019/12/26/111353">Ducks解説サイト</a>
