@@ -2,7 +2,7 @@
  * 状態を格納するstoreファイル
  */
 
-import { createStore } from "redux";
+import { createStore, applyMiddleware } from "redux";
 import counterReducer, { createInitialState } from './modules/counter';
 
 const store = createStore(counterReducer, createInitialState());

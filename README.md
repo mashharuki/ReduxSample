@@ -12,5 +12,11 @@ Reduxを学習するためのサンプルリポジトリです。
    ActionType、Actions、Reducerは密結合してるもの同士なので、1つのファイルで構成し、Moduleとして定義するデザインパターンのこと。  
    action、reducer、typeを一つのファイルに格納することで全体を見通しやすくする。
 
+## Redux middleware
+   Reduxでは、middlewareによって実現する。
+
+## dispatchメソッド
+   状態を更新するためのインターフェース
+
 ### 参考サイト
    1. <a href="https://open8tech.hatenablog.com/entry/2019/12/26/111353">Ducks解説サイト</a>
